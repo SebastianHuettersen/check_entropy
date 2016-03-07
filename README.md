@@ -11,5 +11,5 @@ How to install
 --------------
 
 * Clone this repository somewhere you'll find it later
-* Create a symlink to your plugin directory: ```ln -s check_entropy /usr/lib/nagios/plugins```
-* Create a symlink for the check command: ```ln -s checkCommand-entropy.conf /you/path```
+* Copy ```check_entropy``` to your PluginDir or create a symlink
+* Copy the CheckCommand
